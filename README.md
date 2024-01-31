@@ -11,3 +11,5 @@ In Terminal :
 1. npm install
 
 2. npm start
+
+Link to Project - https://weather-app-jet-chi.vercel.app/
