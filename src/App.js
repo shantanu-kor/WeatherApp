@@ -12,7 +12,7 @@ function App() {
       <h1 style={{ textAlign: "center", backgroundColor: "blue", color: "white", padding: "1%" }}>Get Your Weather</h1>
       <Form />
       {cityCtx.city && <TodaysWeather />}
-      {cityCtx.city && <FiveDayWeather />}
+      // {cityCtx.city && <FiveDayWeather />}
     </React.Fragment>
   );
 }
