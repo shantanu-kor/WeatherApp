@@ -6,14 +6,14 @@ const FiveDayWeather = () => {
     const [degree, setDegree] = useState(true);
     const [data, setData] = useState(null);
 
-    useEffect(() => {
-        const getWeather = async () => {
-            const response = await fetch(`https://api.weatherbit.io/v2.0/forecast/daily?city=${cityCtx.city}&days=5&key=${process.env.REACT_APP_WEATHERBIT_KEY}`);
-            const dat = await response.json();
-            setData(dat);
-        }
-        getWeather();
-    }, [cityCtx.city]);
+    // useEffect(() => {
+    //     const getWeather = async () => {
+    //         const response = await fetch(`https://api.weatherbit.io/v2.0/forecast/daily?city=${cityCtx.city}&days=5&key=${process.env.REACT_APP_WEATHERBIT_KEY}`);
+    //         const dat = await response.json();
+    //         setData(dat);
+    //     }
+    //     getWeather();
+    // }, [cityCtx.city]);
     if (data !== null) {
         const toggleDegree = () => {
             setDegree(prev => !prev);
