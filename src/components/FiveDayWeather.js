@@ -11,7 +11,6 @@ const FiveDayWeather = () => {
             // const response = await fetch(`https://api.weatherbit.io/v2.0/forecast/daily?city=${cityCtx.city}&days=5&key=${process.env.REACT_APP_WEATHERBIT_KEY}`);
             // const dat = await response.json();
             // setData(dat);
-            setData{[]);
         }
         getWeather();
     }, [cityCtx.city]);
