@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import Form from "./components/WeatherForm";
 import TodaysWeather from "./components/TodaysWeather";
 import CityContext from "./store/cityContext";
-import FiveDayWeather from "./components/FiveDayWeather";
+// import FiveDayWeather from "./components/FiveDayWeather";
 
 function App() {
   const cityCtx = useContext(CityContext);
